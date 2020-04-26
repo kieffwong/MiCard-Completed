@@ -10,27 +10,36 @@ dependencies:
   flutter:
     sdk: flutter
 
+
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
+
 flutter:
 
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
   uses-material-design: true
 
   assets:
-    - images/angela.jpg
+    - images/szeyu.jpg
+    - images/eevee.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+
 
   fonts:
-  - family: Pacifico
-    fonts:
-    - asset: fonts/Pacifico-Regular.ttf
-
-  - family: Source Sans Pro
-    fonts:
-    - asset: fonts/SourceSansPro-Regular.ttf
-
-
-
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          style: italic
